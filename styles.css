@@ -1,0 +1,67 @@
+/* styles.css
+   Proyecto base — HTML & CSS
+   Licencia: Creative Commons Attribution-NoDerivatives 4.0 (CC BY-ND 4.0)
+   https://creativecommons.org/licenses/by-nd/4.0/
+*/
+
+/* Reset/normalización sencilla */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html,body { height: 100%; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.4;
+  color: #111;
+  background: #f7f7fa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Contenedor */
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6ee;
+  padding: 1rem 0;
+}
+.brand { font-size: 1.25rem; font-weight: 700; }
+.nav {
+  display: inline-block;
+  float: right;
+}
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  padding: 3.5rem 0;
+  text-align: center;
+}
+.hero h2 { font-size: 2rem; margin-bottom: .5rem; }
+.hero p { max-width: 640px; margin: .5rem auto 1.25rem; color: #444; }
+
+
+/* Footer */
+.site-footer {
+    width: 100%;
+}
+
+/* Pequeñas mejoras responsivas */
+@media (max-width: 640px) {
+  .nav { float: none; margin-top: .5rem; text-align: center; }
+  .nav a { margin: 0 .5rem; display: inline-block; }
+  .hero { padding: 2rem 0; }
+}
+
+
