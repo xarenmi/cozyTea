@@ -117,6 +117,36 @@ h4 { font-size: 1.5rem; margin: .5rem; }
   font-weight: bold;
 }
 
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url(./img/img-locations-background.jpg);
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+}
+
 /* Footer */
 .contact {
     display: flex;
