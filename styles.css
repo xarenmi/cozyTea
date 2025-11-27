@@ -118,7 +118,7 @@ h4 { font-size: 1.5rem; margin: .5rem; }
 }
 
 /* Footer */
-footer {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
